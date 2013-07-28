@@ -50,13 +50,16 @@
 
 				<div class="featured-image group" style="background-image: url('<?php echo $image[0]; ?>')">
 					<!-- <img src="<?php echo $image[0]; ?>"> -->
-					<div class="article-info group">
-						<div class="article-date"><?php echo get_the_date(); ?></div>
-						<div class="article-title"><?php the_title(); ?></div>
-						<div class="subhead"><?php the_excerpt(); ?></div>
-						<div class="article-byline"><?php the_author_posts_link(); ?></div>					
-						<!-- <div class="image-credit"><a href="#">Platon</a></div> -->
-						<!-- <img src="images/sushicat.jpg"> -->
+					
+						<div class="article-info group">
+							<div class="article-info-wrapper">
+							<div class="article-date"><?php echo get_the_date(); ?></div>
+							<div class="article-title"><?php the_title(); ?></div>
+							<div class="subhead"><?php the_excerpt(); ?></div>
+							<div class="article-byline"><?php the_author_posts_link(); ?></div>					
+							<!-- <div class="image-credit"><a href="#">Platon</a></div> -->
+							<!-- <img src="images/sushicat.jpg"> -->
+						</div>
 					</div>
 				</div>
 <?php endif; ?><!-- End if-sketchbook -->				

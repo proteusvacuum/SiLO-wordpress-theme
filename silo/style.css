@@ -351,7 +351,9 @@ vertical-align: bottom;
 	height: auto;
 }
 
-
+.article-info-wrapper{
+	background-color:rgba(0,0,0,0.2);
+}
 .article-info{
 	padding-top:250px;
 	/*width:50%;*/
